@@ -12,3 +12,15 @@ execTime(3000) // 运行3秒钟
 console.log(1) // 输出2
 
 ```
+
+2. 写一个函数`execTime`， 参数`t`：时间毫秒数，参数`callback`：回调函数
+```javaScript
+function execTime(t) {
+  // 补全代码
+}
+console.log(1) // 输出1
+execTime(3000,function(){
+  console.log(3)
+}) // 3秒后输出
+console.log(1) // 输出2
+```
