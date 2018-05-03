@@ -34,10 +34,18 @@
     let obj = {}
     obj.obj = obj
     ```
-   > 考察内存引用，但是一下子画不出内存图
-   ![内存图](https://ws1.sinaimg.cn/large/812ebe37gy1fqy7imnll8j20c10h8mx6.jpg)
+   ![内存图示例](https://ws1.sinaimg.cn/large/812ebe37gy1fqy7imnll8j20c10h8mx6.jpg)
 
 > 漏了两天没完成任务~~
+
+
+
 4. 写一个函数fn，要求fn满足一下条件：
-  1. fn() === fn
-  2. fn.fn === fn
+    1. fn() === fn
+    2. fn.fn === fn
+
+
+5. 写出一个函数fn，是的fn满足以下条件：
+    1. fn() 打印出 `'a'`
+    2. fn()() 打印出`'b'`
+    3. fn()()() 打印出`'c'`
