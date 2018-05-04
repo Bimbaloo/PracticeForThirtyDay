@@ -5,8 +5,15 @@ function fn() {
   let str = 'a'
   setTimeout(function(){
     console.log(str)
-  })
+  }, 4)
   return function fn(){
     str = 'b'
+    return function fn(){
+      str = 'c' 
+    }
   }
 }
+
+fn()
+fn()()
+fn()()()

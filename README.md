@@ -41,11 +41,13 @@
 
 
 4. 写一个函数fn，要求fn满足一下条件：
+    > [第四天练习答案](https://coding.net/u/mzfs/p/PracticeForThirtyDay/git/blob/master/js/4.js?public=true)
     1. fn() === fn
     2. fn.fn === fn
 
 
 5. 写出一个函数fn，是的fn满足以下条件：
+    > [第五天练习答案](https://coding.net/u/mzfs/p/PracticeForThirtyDay/git/blob/master/js/5.js?public=true)
     1. fn() 打印出 `'a'`
     2. fn()() 打印出`'b'`
     3. fn()()() 打印出`'c'`
