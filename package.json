@@ -1,0 +1,34 @@
+{
+  "name": "vuepress-blog",
+  "version": "1.0.0",
+  "description": "Static blog based on vuepress.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "deploy": "npm run build && gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bimbaloo/PracticeForThirtyDay.git"
+  },
+  "author": "mazao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Bimbaloo/PracticeForThirtyDay.git/issues"
+  },
+  "homepage": "https://github.com/Bimbaloo/PracticeForThirtyDay.git#readme",
+  "devDependencies": {
+    "gh-pages": "^1.1.0",
+    "vuepress": "^0.8.4"
+  },
+  "dependencies": {
+    "element-ui": "^2.3.6",
+    "vue": "^2.5.16"
+  }
+}
