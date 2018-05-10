@@ -1,14 +1,14 @@
 module.exports = {
   base: '/PracticeForThirtyDay/', // 设置站点根路径
   dest: './dist',    // 设置输出目录
-  title: '前端练习三十天',
+  title: '学习积累',
   description: '30道前端面试练习题',
   // repo: `https://github.com/Bimbaloo/PracticeForThirtyDay.git`, // 添加 github 链接
   themeConfig: {
     repo: 'Bimbaloo/PracticeForThirtyDay',
     // 添加导航栏
     nav: [
-      { text: '首页', link: '/' },
+      { text: '首页', link: '/home/' },
       { text: 'Blog', link: '/blog/' },
       { text: '知乎', link: '/zhihu/' },
       {
@@ -22,13 +22,15 @@ module.exports = {
     ],
     // 为以下路由添加侧边栏
     sidebar: {
-      '/': [
-        'home/git',
-        'home/vue-amap',
-        'home/js-function'
+      '/home/': [
+        'git',
+        'vue-amap',
+        'js-function'
       ],
       '/blog/': [
-        'git',
+        'webpack',
+        'array',
+        'Performance',
         'vue-amap',
         'js-function'
       ],
