@@ -9,10 +9,10 @@ module.exports = {
     // 添加导航栏
     nav: [
       { text: '首页', link: '/home/' },
-      { text: 'Blog', link: '/blog/' },
-      { text: '知乎', link: '/zhihu/' },
+      { text: '博客', link: '/blog/' },
+      { text: '练习题', link: '/exercises/' },
       {
-        text: '我的项目',
+        text: '2018百度前端学院',
         // 下拉的展示
         items: [
           { text: 'focus-outside', link: 'https://github.com/TaoXuSheng/focus-outside' },
@@ -34,7 +34,7 @@ module.exports = {
         'vue-amap',
         'js-function'
       ],
-      '/zhihu/': [
+      '/exercises/': [
         'vuepress',
         'vue-business-component'
       ]
