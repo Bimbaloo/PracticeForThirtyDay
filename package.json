@@ -11,18 +11,18 @@
     "docs:build": "vuepress build docs",
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
-    "deploy": "npm run build && gh-pages -d dist"
+    "deploy": "npm run build && gh-pages -b coding-pages -o coding -d dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Bimbaloo/PracticeForThirtyDay.git"
+    "url": "git+https://git.coding.net/mzfs/PracticeForThirtyDay.git"
   },
   "author": "mazao",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Bimbaloo/PracticeForThirtyDay.git/issues"
+    "url": "https://git.coding.net/mzfs/PracticeForThirtyDay.git/issues"
   },
-  "homepage": "https://github.com/Bimbaloo/PracticeForThirtyDay.git#readme",
+  "homepage": "https://git.coding.net/mzfs/PracticeForThirtyDay.git#readme",
   "devDependencies": {
     "gh-pages": "^1.1.0",
     "vuepress": "^0.8.4"
